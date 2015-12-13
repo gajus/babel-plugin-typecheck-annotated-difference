@@ -1,6 +1,6 @@
 # babel-plugin-typecheck-annotated-difference
 
-Example of generating a `console.log`-like output showing an annotated difference between type shape object and subject data object.
+Example of formatting an object for printing showing an annotated difference between type shape object and subject data object.
 
 This example is built to address https://github.com/codemix/babel-plugin-typecheck/issues/93 issue.
 
