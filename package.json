@@ -1,0 +1,40 @@
+{
+  "name": "babel-plugin-typecheck-annotated-difference",
+  "version": "0.0.1",
+  "description": "Checks if value is an arrow function object.",
+  "main": "./dist/",
+  "author": {
+    "name": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gajus/babel-plugin-typecheck-annotated-difference"
+  },
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "keywords": [
+    "annotated",
+    "difference"
+  ],
+  "scripts": {
+    "pragmatist": "node ./node_modules/.bin/pragmatist",
+    "lint": "npm run pragmatist lint",
+    "test": "npm run pragmatist test",
+    "build": "npm run pragmatist build",
+    "watch": "npm run pragmatist watch",
+    "watch-lint": "npm run pragmatist watch-lint",
+    "watch-test": "npm run pragmatist watch-test",
+    "watch-build": "npm run pragmatist watch-build"
+  },
+  "devDependencies": {
+    "pragmatist": "^2.3.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
+    "pretty-print-object": "^1.1.0"
+  }
+}
